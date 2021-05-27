@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/CommuneCodewellChallenge/static/css/main.fc890b5b.chunk.css",
+    "main.js": "/CommuneCodewellChallenge/static/js/main.8d4ecc3b.chunk.js",
+    "main.js.map": "/CommuneCodewellChallenge/static/js/main.8d4ecc3b.chunk.js.map",
+    "runtime-main.js": "/CommuneCodewellChallenge/static/js/runtime-main.8dac53d3.js",
+    "runtime-main.js.map": "/CommuneCodewellChallenge/static/js/runtime-main.8dac53d3.js.map",
+    "static/js/2.19c7b993.chunk.js": "/CommuneCodewellChallenge/static/js/2.19c7b993.chunk.js",
+    "static/js/2.19c7b993.chunk.js.map": "/CommuneCodewellChallenge/static/js/2.19c7b993.chunk.js.map",
+    "index.html": "/CommuneCodewellChallenge/index.html",
+    "static/css/main.fc890b5b.chunk.css.map": "/CommuneCodewellChallenge/static/css/main.fc890b5b.chunk.css.map",
+    "static/js/2.19c7b993.chunk.js.LICENSE.txt": "/CommuneCodewellChallenge/static/js/2.19c7b993.chunk.js.LICENSE.txt",
+    "static/media/Atlassian Icon.ea39ba68.svg": "/CommuneCodewellChallenge/static/media/Atlassian Icon.ea39ba68.svg",
+    "static/media/Behance Icon.5634209a.svg": "/CommuneCodewellChallenge/static/media/Behance Icon.5634209a.svg",
+    "static/media/Bing Icon.85056b99.svg": "/CommuneCodewellChallenge/static/media/Bing Icon.85056b99.svg",
+    "static/media/Bitbucket Icon.d956841a.svg": "/CommuneCodewellChallenge/static/media/Bitbucket Icon.d956841a.svg",
+    "static/media/Dropbox Icon.b5210674.svg": "/CommuneCodewellChallenge/static/media/Dropbox Icon.b5210674.svg",
+    "static/media/Hamburger Menu.c4da44b0.svg": "/CommuneCodewellChallenge/static/media/Hamburger Menu.c4da44b0.svg",
+    "static/media/Illustration.cf3227c9.png": "/CommuneCodewellChallenge/static/media/Illustration.cf3227c9.png",
+    "static/media/Logo.bf66beee.svg": "/CommuneCodewellChallenge/static/media/Logo.bf66beee.svg",
+    "static/media/Twitch Icon.f9a4c4a8.svg": "/CommuneCodewellChallenge/static/media/Twitch Icon.f9a4c4a8.svg",
+    "static/media/Twitter Icon.6eb4e5c8.svg": "/CommuneCodewellChallenge/static/media/Twitter Icon.6eb4e5c8.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8dac53d3.js",
+    "static/js/2.19c7b993.chunk.js",
+    "static/css/main.fc890b5b.chunk.css",
+    "static/js/main.8d4ecc3b.chunk.js"
+  ]
+}
