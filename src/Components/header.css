@@ -1,0 +1,41 @@
+@media (max-width: 1024px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15%;
+  }
+  .header__nav {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  .header__hamburger {
+    display: none;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4%;
+  }
+  .header__nav {
+    display: flex;
+    align-items: baseline;
+    list-style-type: none;
+  }
+  .header__nav li {
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  .header__nav li:hover {
+    font-weight: 600;
+  }
+  button {
+    background-color: #390b6c;
+    color: #fff;
+    font-size: 100%;
+    border: none;
+    padding: 13px;
+    border-radius: 10px;
+  }
+}
