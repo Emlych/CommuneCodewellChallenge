@@ -12,6 +12,26 @@ button:active {
   box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6),
     inset 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
+/* Main part */
+.main input {
+  color: grey;
+  border: 1px solid lightgray;
+}
+.main__button {
+  border-radius: 35px;
+}
+span {
+  font-weight: 500;
+  text-decoration: underline;
+}
+.main h2 {
+  margin-bottom: 0;
+}
+.main p {
+  text-align: center;
+
+  color: #676463;
+}
 /* Smartphone view */
 @media (max-width: 575px) {
   .main__left {
@@ -24,40 +44,34 @@ button:active {
     display: none;
   }
   .main__button {
-    border-radius: 35px;
     padding: 13px;
-  }
-  span {
-    font-weight: 500;
-    text-decoration: underline;
   }
   .main h2 {
     text-align: center;
     font-size: 190%;
     line-height: 40px;
-    margin-bottom: 0;
     padding: 0 12px 0 12px;
   }
   .main p {
     text-align: center;
-    color: #676463;
     padding: 0 5px 0 5px;
   }
-  .main__join {
+  .main__left .main__join {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
   .main input {
-    padding: 25px 40px;
+    box-sizing: border-box;
+    padding: 20px 40px;
     font-size: 100%;
-    color: grey;
     width: 100%;
+    margin-bottom: 5px;
   }
   .main__button-join {
     border-radius: 5px;
     padding: 13px;
-    width: 120%;
+    width: 100%;
   }
 }
 
@@ -72,24 +86,17 @@ button:active {
     display: none;
   }
   .main__button {
-    border-radius: 35px;
     padding: 13px 22px;
-  }
-  span {
-    font-weight: 500;
-    text-decoration: underline;
   }
   .main__left h2 {
     text-align: center;
     font-size: 250%;
     line-height: 50px;
-    margin-bottom: 0;
     padding: 0 10% 0 10%;
   }
   .main p {
     text-align: center;
     line-height: 25px;
-    color: #676463;
   }
   .main__join {
     display: flex;
@@ -97,14 +104,14 @@ button:active {
     align-items: baseline;
   }
   .main input {
-    padding: 25px 25px;
+    padding: 19px 25px;
     font-size: 100%;
-    color: grey;
   }
   .main__button-join {
     border-radius: 5px;
     font-weight: 500;
-    height: 50px;
+    height: 60px;
+    margin-left: 20px;
   }
 }
 /* Computer screen view */
@@ -127,20 +134,13 @@ button:active {
     width: 60%;
   }
   .main__button {
-    border-radius: 35px;
     padding: 15px 30px;
-  }
-  span {
-    font-weight: 500;
-    text-decoration: underline;
   }
   .main h2 {
     font-size: 310%;
     line-height: 70px;
-    margin-bottom: 0;
   }
   .main p {
-    color: #676463;
     padding-right: 5px;
     line-height: 25px;
   }
@@ -153,9 +153,7 @@ button:active {
     padding: 0 20px;
     font-size: 100%;
     width: 50%;
-    color: grey;
     height: 47px;
-    border-width: 1px;
   }
   .main__button-join {
     border-radius: 5px;
